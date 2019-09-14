@@ -1,0 +1,20 @@
+{
+  "name": "simple-eslint",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "lint": "./node_modules/.bin/eslint ./app",
+    "lint:fix": "./node_modules/.bin/eslint ./app --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-3PO/simple-eslint.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
